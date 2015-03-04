@@ -1,1 +1,5 @@
-<project name="gtest" />
+<project version="3">
+  <qibuild name="gtest">
+    <depends buildtime="true" runtime="true" names="pthread" />
+  </qibuild>
+</project>
